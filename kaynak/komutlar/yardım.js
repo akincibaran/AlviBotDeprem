@@ -16,7 +16,7 @@ module.exports = {
         iconURL: client.user.avatarURL({ dynamic: true }),
       })
       .setDescription(
-        `**d!yardım** \`=\` Yardım menüsünü gösterir.\n**d!deprem** \`=\` Deprem Bilgi sistemi komutları.\n**d!istatistik** \`=\` Bot istatistigi.\n**d!ping** \`=\` Botun gecikme süresini gösterir.\nLinkler \`=>\`\n[Destek Sunucusu](${config.destek})\n[Destekle (Botu ekle)](${config.davet})`
+        `**/yardım** \`=\` Yardım menüsünü gösterir.\n**/deprem** \`=\` Deprem Bilgi sistemi komutları.\n**/istatistik** \`=\` Bot istatistigi.\n**/ping** \`=\` Botun gecikme süresini gösterir.\nLinkler \`=>\`\n[Destek Sunucusu](${config.destek})\n[Destekle (Botu ekle)](${config.davet})`
       );
 
     interaction.reply({ embeds: [embed] });
